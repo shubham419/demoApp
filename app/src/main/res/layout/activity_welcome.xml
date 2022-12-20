@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#11CFC5"
+        tools:context=".Activity.LoginActivity"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="50dp"
+            android:fontFamily="sans-serif-light"
+            android:text="Welcome!"
+            android:textColor="@color/white"
+            android:textSize="45sp"
+            />
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:text="Hope we add value..."
+            android:layout_marginStart="26dp"
+            android:layout_marginTop="-3dp"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            />
+        <ImageView
+            android:layout_width="315dp"
+            android:layout_height="215dp"
+            android:layout_marginTop="-65dp"
+            app:layout_constraintBottom_toTopOf="@+id/editText"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_gravity="right"
+            app:srcCompat="@drawable/ic_poster" />
+
+
+        <Button
+            android:id="@+id/create_account_btn"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Create Account"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/white"
+            android:layout_gravity="center_horizontal"
+            android:elevation="5dp"
+            android:layout_marginTop="45dp"
+            />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:textColor="@color/black"
+            android:layout_gravity="center_horizontal"
+            android:backgroundTint="@color/white"
+            android:elevation="5dp"
+            android:layout_marginTop="40dp"
+            />
+
+
+
+
+    </LinearLayout>
+
+
+</layout>

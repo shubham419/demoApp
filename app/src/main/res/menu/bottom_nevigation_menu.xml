@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/homeFragment"
+        android:icon="@drawable/ic_home"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/analyticListFragment"
+        android:title="placeHolder"
+        android:icon="@drawable/ic_placholder"/>
+
+    <item
+        android:id="@+id/customMeditationFragment"
+        android:title="placeHolder"
+        android:icon="@drawable/ic_placholder"/>
+    <item
+        android:id="@+id/MeditationFragment"
+        android:title="placeHolder"
+        android:icon="@drawable/ic_placholder"/>
+
+</menu>

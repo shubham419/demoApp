@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "80392186924",
+    "project_id": "demoapp-1f821",
+    "storage_bucket": "demoapp-1f821.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:80392186924:android:a05f0a99c1d6a3d3b47589",
+        "android_client_info": {
+          "package_name": "com.shubham.demoapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "80392186924-8nqbhb9ea8pahe0iqu7a1a8csg5qm0rt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMMvXqQRbWMig3EMg4No9tNgD7NMcTaOo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "80392186924-8nqbhb9ea8pahe0iqu7a1a8csg5qm0rt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
